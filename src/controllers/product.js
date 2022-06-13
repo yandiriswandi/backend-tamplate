@@ -111,7 +111,7 @@ exports.addProduct = async (req, res) => {
 
     // Handle uploader to cloudinary here ...
     const result = await cloudinary.uploader.upload(req.file.path, {
-      folder: 'dumbmerch-b34',
+      folder: 'b32_dumbmerch',
       use_filename: true,
       unique_filename: false,
     });
